@@ -1,0 +1,5 @@
+{
+  "name": "v2-presentation2",
+  "region": "us-east-1",
+  "main": "stacks/index.ts"
+}

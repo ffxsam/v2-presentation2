@@ -3949,6 +3949,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@brillout/json-s@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@brillout/json-s@npm:0.3.0"
+  checksum: c8c6357344e33cceb5e436814dcd69c31b2d97edd0ea861c45ac0f6f0629876ce73261fd84d73f6259a6957171f800b2a59bfbb1ce7b54c572af0a5af11d7c4a
+  languageName: node
+  linkType: hard
+
+"@brillout/libassert@npm:^0.5.2":
+  version: 0.5.2
+  resolution: "@brillout/libassert@npm:0.5.2"
+  checksum: 8e9dcfbbe48fb14817348da155b050892de324c51c22b6ee27753f93fab1328c90410597cd7945cc8ca64c05d8476cc324084ed7fcc604219fc794a2833ea5da
+  languageName: node
+  linkType: hard
+
 "@cnakazawa/watch@npm:^1.0.3":
   version: 1.0.4
   resolution: "@cnakazawa/watch@npm:1.0.4"
@@ -5668,6 +5682,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vue/devtools-api@npm:^6.0.0-beta.18":
+  version: 6.0.0-beta.20.1
+  resolution: "@vue/devtools-api@npm:6.0.0-beta.20.1"
+  checksum: e43f75415cfd84fcaf2f7c52752012c400aefe03fe95e0c41cdf31f16a0222d581ca8c575a9d7dc39b554430ecf2ff1a314eebd60c8a9313854fecf820ed59a9
+  languageName: node
+  linkType: hard
+
 "@vue/reactivity-transform@npm:3.2.26":
   version: 3.2.26
   resolution: "@vue/reactivity-transform@npm:3.2.26"
@@ -7094,6 +7115,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cac@npm:^6.7.12":
+  version: 6.7.12
+  resolution: "cac@npm:6.7.12"
+  checksum: c0d4129eb30fc43449e9078ac37bb3b837aab6261236a6642a6fb9d839bb6a41e191e1f2776f87569535db07dcbf4937680419126215b4c17c9dba4351d1bd5e
+  languageName: node
+  linkType: hard
+
 "cacache@npm:^15.0.5, cacache@npm:^15.2.0":
   version: 15.3.0
   resolution: "cacache@npm:15.3.0"
@@ -8503,6 +8531,13 @@ __metadata:
     is-string: ^1.0.5
     isarray: ^2.0.5
   checksum: f75e66acb6a45686fa08b3ade9c9421a70d36a0c43ed4363e67f4d7aab2226cb73dd977cb48abbaf75721b946d3cd810682fcf310c7ad0867802fbf929b17dcf
+  languageName: node
+  linkType: hard
+
+"es-module-lexer@npm:^0.9.3":
+  version: 0.9.3
+  resolution: "es-module-lexer@npm:0.9.3"
+  checksum: 84bbab23c396281db2c906c766af58b1ae2a1a2599844a504df10b9e8dc77ec800b3211fdaa133ff700f5703d791198807bba25d9667392d27a5e9feda344da8
   languageName: node
   linkType: hard
 
@@ -12141,6 +12176,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"kolorist@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "kolorist@npm:1.5.0"
+  checksum: 1eb27470f7468e2591ed60c19a292e7a3cf4f4e211ad2c14aa33c98ee6d2c8e88444c03e98fb5cb5d4ddcb8da431529599c2f187b806b019411fd7c6812c4c74
+  languageName: node
+  linkType: hard
+
 "lazystream@npm:^1.0.0":
   version: 1.0.1
   resolution: "lazystream@npm:1.0.1"
@@ -13533,7 +13575,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-limit@npm:3.1.0":
+"p-limit@npm:3.1.0, p-limit@npm:^3.1.0":
   version: 3.1.0
   resolution: "p-limit@npm:3.1.0"
   dependencies:
@@ -16482,7 +16524,9 @@ __metadata:
     "@vitejs/plugin-vue": ^2.0.0
     typescript: ^4.4.4
     vite: ^2.7.2
+    vite-plugin-ssr: ^0.3.36
     vue: ^3.2.25
+    vue-router: ^4.0.0
     vue-tsc: ^0.29.8
   languageName: unknown
   linkType: soft
@@ -16537,6 +16581,33 @@ __metadata:
   version: 1.1.2
   resolution: "vary@npm:1.1.2"
   checksum: ae0123222c6df65b437669d63dfa8c36cee20a504101b2fcd97b8bf76f91259c17f9f2b4d70a1e3c6bbcee7f51b28392833adb6b2770b23b01abec84e369660b
+  languageName: node
+  linkType: hard
+
+"vite-plugin-import-build@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "vite-plugin-import-build@npm:0.1.2"
+  checksum: 881ced517857020c307785f11d6754912d44facc7b27395fed6fc012bec242448e022f707b6d0c85a82d03108fe3864487ed9d2b4b99011c7f7c3e2ad429ad46
+  languageName: node
+  linkType: hard
+
+"vite-plugin-ssr@npm:^0.3.36":
+  version: 0.3.36
+  resolution: "vite-plugin-ssr@npm:0.3.36"
+  dependencies:
+    "@brillout/json-s": ^0.3.0
+    "@brillout/libassert": ^0.5.2
+    cac: ^6.7.12
+    es-module-lexer: ^0.9.3
+    fast-glob: ^3.2.7
+    kolorist: ^1.5.0
+    p-limit: ^3.1.0
+    vite-plugin-import-build: ^0.1.2
+  peerDependencies:
+    vite: ^2.5.0
+  bin:
+    vite-plugin-ssr: node/bin/vite-plugin-ssr.js
+  checksum: dbe04653dfc2d2489bfd97cbb98e5a416724594af5c128486729e91e82d4cc0b547386f85d04d03b0919867e96fd15d7d2bbfb752a10d83b69bb9ca8f66cd3bf
   languageName: node
   linkType: hard
 
@@ -16750,6 +16821,17 @@ __metadata:
     vscode-pug-languageservice: 0.29.8
     vscode-typescript-languageservice: 0.29.8
   checksum: 6e2f7a13013b3c32996fb889d5170c6141b023e57424db81fc6df0fa7cb6d7410d976b2f55f647d28b5896d8b5090db98bb3934f3a641ef624a47f026ce4114b
+  languageName: node
+  linkType: hard
+
+"vue-router@npm:^4.0.0":
+  version: 4.0.12
+  resolution: "vue-router@npm:4.0.12"
+  dependencies:
+    "@vue/devtools-api": ^6.0.0-beta.18
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: 5ac66dffd956d088267ba45ec17e390de0aebb1ad08fc9431deb1397e265a003ae99b705fe7ca4ee610782de70aef129b4adf0a494171620d8153d794b2e5498
   languageName: node
   linkType: hard
 

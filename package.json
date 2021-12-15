@@ -31,7 +31,9 @@
     "@aws-cdk/core": "1.132.0",
     "@serverless-stack/cli": "0.54.2",
     "@serverless-stack/resources": "0.54.2",
-    "vue": "^3.2.25"
+    "vite-plugin-ssr": "^0.3.36",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.0"
   },
   "packageManager": "yarn@3.1.1"
 }

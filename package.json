@@ -9,7 +9,7 @@
     "deploy": "sst deploy",
     "remove": "sst remove",
     "dev": "vite",
-    "build:vite": "vue-tsc --noEmit && vite build",
+    "build:vite": "vite build && vite build --ssr",
     "preview": "vite preview"
   },
   "eslintConfig": {
